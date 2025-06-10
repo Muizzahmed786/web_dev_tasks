@@ -1,0 +1,22 @@
+body{
+    background-color:bisque;
+    font-family: Arial, sans-serif;
+}
+
+.h{
+    color: rgb(255, 128, 0);
+    text-align: center;
+    text-shadow: 3px 3px 5px yellow, -3px -3px 5px greenyellow;
+    border: 5px solid black;
+    border-top-color: blueviolet;
+    border-bottom-color: chocolate;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+p{
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
