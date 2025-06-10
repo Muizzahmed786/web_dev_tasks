@@ -1,1 +1,91 @@
 
+body {
+    background-color: Lavender;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: SlateBlue;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: 5px solid MidnightBlue;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: MidnightBlue;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px MediumPurple, -3px -3px 5px LightBlue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.p {
+    border: 5px solid MidnightBlue;
+    background-color: LightSeaGreen;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    padding: 1em;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.p:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: LightSteelBlue;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: MidnightBlue;
+}
+
+nav a {
+    margin: 0 10px;
+    color: MidnightBlue;
+    text-decoration: none;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.s {
+    border: 5px solid MidnightBlue;
+    background-color: PaleTurquoise;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    padding: 1em;
+    color: darkslategray;
+}
+
+.about {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
+}
