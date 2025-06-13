@@ -27,7 +27,8 @@ h1{
 }
 
 .navbar a{
-    color: blue;
+    color: black;
+    font-size: 20px;
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -35,7 +36,7 @@ h1{
 }
 
 .navbar a:hover{
-    background-color:darkgrey;
+    background-color:cadetblue;
 }
 
 .card{

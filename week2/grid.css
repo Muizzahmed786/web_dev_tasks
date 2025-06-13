@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 50vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
+}
+
+.item {
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: lightcoral;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
