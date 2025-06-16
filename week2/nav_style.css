@@ -2,12 +2,14 @@ body{
     margin: 0px;
     background-color: lightblue;
     align-items: center;
+    background-image: radial-gradient(circle, lightblue, rgba(61, 144, 26, 0.501));
 }
 
 main{
     padding: 20px;
     background-color: lightblue;
     text-align: center;
+    background-image: radial-gradient(circle, lightblue, rgba(61, 144, 26, 0.501));
 }
 
 h1{
@@ -54,4 +56,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+.card:hover {
+    background-color: lightcoral;
+    font-size: 20px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
