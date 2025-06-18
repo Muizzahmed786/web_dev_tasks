@@ -1,0 +1,152 @@
+body {
+    background-color: Lavender;
+    background-image: radial-gradient(circle, white, grey);
+    color: MidnightBlue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: SlateBlue;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: 5px solid MidnightBlue;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: MidnightBlue;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px MediumPurple, -3px -3px 5px LightBlue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.p {
+    border: 5px solid MidnightBlue;
+    background-color: LightSeaGreen;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    padding: 1em;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.p:hover {
+    transform: scale(1.05);
+    background-color: lightcoral;
+}
+
+nav {
+    background-color: LightSteelBlue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: MidnightBlue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+nav a {
+    margin: 0 10px;
+    color: MidnightBlue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.s {
+    border: 5px solid MidnightBlue;
+    background-color: PaleTurquoise;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    padding: 1em;
+    color: black;
+}
+
+.s:hover {
+    background-color: lightcoral;
+}
+
+.about {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    img {
+        width: 25%;
+    }
+
+    .p, .s {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    nav {
+        font-size: 0.9em;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .p, .s {
+        width: 100%;
+    }
+}
