@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Header section styling starts */
+.navbar{
+    padding: 10px 20px;
+    color: white;
+    height: 60px;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px red, -2px -2px 5px black;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#language{
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: verdana;
+    background-color: red;
+    color: white;
+}
+
+label{
+    font-size: 1.45rem;
+}
+
+.sign-in-button{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    font-family: verdana;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+.sign-in-button:hover{
+    background-color: grey;
+    transform: scale(1.05)
+}
+
+/*header section styling ends*/
+
+/* main section styling starts*/
+
+.main-section-container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 5px red, -2px -2px 5px black;
+}
+
+h1, h3{
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px red, -2px -2px 5px black;
+}
+
+.email-box{
+    padding: 7px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: verdana;
+    width: 350px;
+}
+
+.get-started-button{
+    padding: 5px;
+    font-size: 1.15rem;
+    border: none;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 34, 34);
+    color: white;
+}
